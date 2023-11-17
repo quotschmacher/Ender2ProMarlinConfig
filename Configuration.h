@@ -1236,7 +1236,11 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 137.5 }
+// Redrex Dual Gear
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 137.5 }
+
+// Creality MK8 Extruder fuer Ender 3
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 97.8 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
